@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Logo from './components/Logo/Logo.js';
 import StartButton from './components/StartButton/StartButton.js';
 import Timer from './components/Timer/Timer.js';
+import FooterPage from './components/Footer/Footer.js';
 import './App.css';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
         <Logo />
         <StartButton />
         <Timer />
+        <FooterPage />
       </div>
     );
   }
